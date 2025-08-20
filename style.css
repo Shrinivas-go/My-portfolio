@@ -354,6 +354,68 @@ article .icon{
   color:rgba(0, 0, 0, 0.699);
 }
 
+/* Projects Section  */
+#projects{
+  position:relative;
+}
+
 .project-img{
-  width:900px;
+   border-radius:2rem;
+   width:90%;
+   height:200px;
+}
+
+.color-container{
+  border:1px solid #50C878;
+}
+
+.project-title{
+  margin:1rem;
+  color:#50C878;
+}
+
+/* Contact Section  */
+#contact{
+  display:flex;
+  justify-content: center;
+  flex-direction:column;
+  height:70vh;
+}
+
+.contact-info-upper-container{
+  display:flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: 2px solid black;
+  background-color:green;
+  margin:2rem auto;
+  padding:0.5rem;
+}
+
+.contact-info-container{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:0.5rem;
+  margin:1rem;
+} 
+.contact-info-container p{
+  font-size:larger;
+}
+
+.contact-icon{
+  cursor:default;
+}
+.email-icon{
+  height:2.5rem;
+}
+
+/* Footer Section  */
+footer{
+  height:26vh;
+  margin:0 1rem;
+}
+
+footer p{
+  text-align:center;
 }
