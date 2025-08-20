@@ -263,7 +263,7 @@ section {
 }
 
 /* About Section  */
-.about{
+#about{
   position:relative;
 }
 
@@ -331,5 +331,25 @@ section {
 }
 
 article{
-  margin-bottom:1rem;
+  display:flex;
+  width:10rem;
+  gap:0.5rem;
+  justify-content: space-around;
+  align-items:center;
+}
+
+article .icon{
+  cursor:default;
+}
+
+/* Skills Section  */
+#experience{
+  position:relative;
+}
+
+.experience-sub-title{
+  font-weight:500;
+  font-size:1.8rem;
+  margin-bottom:2rem;
+  color:rgba(0, 0, 0, 0.699);
 }
