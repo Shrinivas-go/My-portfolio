@@ -57,6 +57,9 @@ a:hover{
 
 .logo{
   font-size:2rem;
+  display:flex;
+  align-items:center;
+  gap:1rem;
 }
 
 .logo:hover{
@@ -159,7 +162,7 @@ section {
 .my-pp{
   border-radius:50%;
   width:350px;
-  height:350px;
+  height:400px;
 }
 
 #profile{
