@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/youtube-clone/(.*)",
+      "destination": "https://youtube-clone-one-mocha.vercel.app/$1"
+    },
+    {
+      "source": "/mess-tracker/(.*)",
+      "destination": "https://mess-tracker-five.vercel.app/$1"
+    },
+    {
+      "source": "/simple-calculator/(.*)",
+      "destination": "https://simple-calculator-flame-phi.vercel.app/$1"
+    }
+  ]
+}
