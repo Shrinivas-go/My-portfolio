@@ -14,5 +14,7 @@
     { "source": "/netflix-clone/(.*)", "destination": "https://netflix-clone-seven-phi-28.vercel.app/$1" },
     { "source": "/green-job-portal", "destination": "https://green-job-portal.vercel.app" },
     { "source": "/green-job-portal/(.*)", "destination": "https://green-job-portal.vercel.app/$1" }
+    { "source": "/amazon-project", "destination": "https://amazon-project-teal.vercel.app/" },
+    { "source": "/amazon-project/(.*)", "destination": "https://amazon-project-teal.vercel.app/$1" }
   ]
 }
